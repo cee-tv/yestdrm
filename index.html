@@ -405,8 +405,7 @@ border-radius: 4px !important;
         text-align: center; /* Center align the button within the div */
     }
     .button-container {
-        text-align: center;
-        background-color: #87CEEB; /* Background color for the box */
+        text-align: center;       
         padding: 20px; /* Padding around the buttons */
         display: inline-block;
     }
@@ -422,4 +421,27 @@ border-radius: 4px !important;
        font-weight: bold; /* Make it bold */
        color: #ff5733; 
    }
+   .button-container {
+background-color: #2f3543;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    max-width: 400px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    max-height: 800px;
+    overflow-y: auto;
+
+}
+
+.button-container {
+    padding: 10px;
+    background-color: #2f3543;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
  </style>
